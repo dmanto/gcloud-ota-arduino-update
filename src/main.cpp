@@ -164,6 +164,7 @@ bool downloadUpdate(String url)
 /* 
  * Show current device version
  */
+
 void handleRoot() {  
   server.send(200, "text/plain", "v" + String(CURRENT_VERSION));
 }
